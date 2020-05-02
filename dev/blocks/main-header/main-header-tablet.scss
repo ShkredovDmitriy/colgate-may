@@ -1,0 +1,28 @@
+@media screen and ($tablet1), ($tablet2), ($tablet3) {
+
+  .main-header {
+    height: 4.1875rem;
+  }
+
+  .main-header__wrapper {
+    width: 45.3125rem;
+  }
+
+  .main-header__colgate-logo {
+    width: 9.875rem;
+    transform: translateY(1.75rem);
+  }
+
+  .main-header__crossroads-logo {
+    margin-left: 1.75rem;
+    width: 11.875rem;
+  }
+
+  .main-header__social-container {
+    display: none;
+  }
+
+  .main-header__sandwich {
+    display: block;
+  }
+}

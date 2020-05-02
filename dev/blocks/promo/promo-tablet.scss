@@ -1,0 +1,59 @@
+@media screen and ($tablet1), ($tablet2), ($tablet3) {
+
+  .promo {
+    background-image: url("./images/main-bg-tablet.png");
+  }
+
+  .promo__wrapper {
+    width: 45.3125rem;
+  }
+
+  .promo__step-container {
+    padding-bottom: 11.9375rem;
+  }
+
+  .promo__step {
+    margin-top: 2.625rem;
+    padding-left: 5.4375rem;
+  }
+
+  .promo__step-2 {
+    margin-top: 3.0625rem;
+  }
+
+  .promo__step-3 {
+    margin-top: 3.1875rem;
+  }
+
+  .promo__step-1-image {
+    top: .2375rem;
+    left: .067rem;
+    width: 2.67rem;
+  }
+
+  .promo__step-2-image {
+    top: .3125rem;
+    left: -.125rem;
+    width: 4.125rem;
+  }
+
+  .promo__step-3-image {
+    top: .3125rem;
+    left: 0;
+    width: 2.5rem;
+  }
+
+  .promo__step-text {
+    width: 36.75rem;
+    font-size: 3.6875rem;
+    line-height: 3.75rem;
+  }
+
+  .promo__step-text-2 {
+    width: 24.75rem;
+  }
+
+  .promo__step-text-3 {
+    width: 22.75rem;
+  }
+}

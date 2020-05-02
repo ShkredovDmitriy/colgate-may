@@ -1,0 +1,78 @@
+.promo {
+  flex-grow: 1;
+  width: 100%;
+  background-image: url("./images/main-bg-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo__wrapper {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 83rem;
+  height: 100%;
+}
+
+.promo__step-container {
+  padding-bottom: 1.875rem;
+}
+
+.promo__step {
+  position: relative;
+  margin-top: 3.625rem;
+  padding-left: 8.75rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.promo__step-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.125rem;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.promo__step-1-image {
+  top: .375rem;
+  left: -.0625rem;
+  width: 4.25rem;
+}
+
+.promo__step-2-image {
+  top: .3125rem;
+  left: -.25rem;
+  width: 5.6875rem;
+}
+
+.promo__step-3-image {
+  top: 0;
+  left: .6875rem;
+  width: 4rem;
+}
+
+.promo__step-text {
+  width: 28.75rem;
+  font-size: 3.75rem;
+  line-height: 3.9375rem;
+  color: $white;
+
+  .bold {
+    font-family: $main-font-bold;
+  }
+}
+
+@import "./promo-tablet.scss";
+
+@import "./promo-mobile.scss";

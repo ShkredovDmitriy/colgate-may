@@ -1,0 +1,43 @@
+@media screen and ($mobile1), ($mobile2), ($mobile3) {
+
+  .promo {
+    background-image: url("./images/main-bg-mobile.png");
+  }
+
+  .promo__wrapper {
+    width: 20.6875rem;
+  }
+
+  .promo__step-container {
+    padding-bottom: 23rem;
+  }
+
+  .promo__step {
+    margin-top: 1.875rem;
+    padding-left: 5.5625rem;
+  }
+
+  .promo__step-1-image {
+    top: .5rem;
+    left: .5rem;
+    width: 2.3125rem;
+  }
+
+  .promo__step-2-image {
+    top: .3125rem;
+    left: .4375rem;
+    width: 3.7rem;
+  }
+
+  .promo__step-3-image {
+    top: .4375rem;
+    left: .4375rem;
+    width: 2.75rem;
+  }
+
+  .promo__step-text {
+    width: 100%;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+}

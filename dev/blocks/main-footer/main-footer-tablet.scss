@@ -1,0 +1,44 @@
+@media screen and ($tablet1), ($tablet2), ($tablet3) {
+
+  .main-footer {
+    height: 12.625rem;
+  }
+
+  .main-footer__decor {
+    height: 16.5625rem;
+    background-image: url("./images/main-footer-tablet.svg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  .main-footer__decor-colgate {
+    bottom: 7rem;
+    left: calc(50% - 5.8rem);
+    width: 15.125rem;
+    height: 22.188rem;
+  }
+
+  .main-footer__wrapper {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: .75rem;
+    width: 45.3125rem;
+  }
+
+  .main-footer__description {
+    margin-top: .8125rem;
+    width: 100%;
+  }
+
+  .main-footer__title {
+    margin-top: 0;
+    font-size: 4.375rem;
+    text-align: left;
+
+    &:after {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.nav-menu {
+  margin-right: 3.125rem;
+  margin-left: auto;
+}
+
+.nav-menu__container {
+  display: flex;
+}
+
+.nav-menu__link,
+.nav-menu__border-line {
+  font-family: $main-font-regular;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: $black;
+}
+
+.nav-menu__border-line {
+  display: block;
+  margin-right: .375rem;
+  margin-left: .3125rem;
+}
+
+@import "./nav-menu-tablet.scss";

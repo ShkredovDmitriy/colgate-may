@@ -1,0 +1,27 @@
+@media screen and ($mobile1), ($mobile2), ($mobile3) {
+
+  .main-header {
+    height: 6.3125rem;
+  }
+
+  .main-header__wrapper {
+    position: relative;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 19.6875rem;
+  }
+
+  .main-header__colgate-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 9.9375rem;
+    transform: none;
+  }
+
+  .main-header__crossroads-logo {
+    margin-top: .6875rem;
+    width: 10rem;
+    transform: translateX(1rem);
+  }
+}

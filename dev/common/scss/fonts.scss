@@ -1,5 +1,11 @@
 @import "mixins";
 
+@include font-face("LifehackRegular", "../../fonts/LifehackSansRegular", 400);
+
+@include font-face("LifehackBold", "../../fonts/LifehackSansBold", 400);
+
+@include font-face("OpenSansRegular", "../../fonts/OpenSansRegular", 400);
+
 // @include font-face("SarabunThin", "../../fonts/Sarabun-Thin", 400);
 
 // @include font-face("SarabunExtraLight", "../../fonts/Sarabun-Extralight", 400);
