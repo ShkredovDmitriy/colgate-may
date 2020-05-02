@@ -1,10 +1,20 @@
 .promo {
   flex-grow: 1;
   width: 100%;
-  background-image: url("./images/main-bg-desktop.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("./images/main-bg-dekor-1.png"),
+    url("./images/main-bg-dekor-2.png"), url("./images/main-bg-dekor-3.png"),
+    url("./images/main-bg-dekor-1.png"), url("./images/main-bg-dekor-4.png"),
+    url("./images/main-bg-desktop.png");
+
+  background-position: calc(50% + 58.45rem) .067rem,
+    calc(50% - 36.25rem) -2.5rem, calc(50% + 8.5rem) -3.6rem,
+    calc(50% - 58.75rem) calc(50% + 6.6rem),
+    calc(50% - 47.4rem) calc(50% + 11.75rem), center;
+
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat;
+  background-size: 18.5rem auto, 23rem auto, 13rem auto, 18.065rem auto,
+    23rem auto, cover;
 }
 
 .promo__wrapper {
@@ -23,6 +33,7 @@
 
 .promo__step {
   position: relative;
+  z-index: 1;
   margin-top: 3.625rem;
   padding-left: 8.75rem;
 

@@ -1,6 +1,9 @@
 .nav-menu {
-  margin-right: 3.125rem;
   margin-left: auto;
+}
+
+.nav-menu {
+  display: flex;
 }
 
 .nav-menu__container {
@@ -21,4 +24,28 @@
   margin-left: .3125rem;
 }
 
+.nav-menu__social-container {
+  display: flex;
+  margin-left: 3.0625rem;
+}
+
+.nav-menu__social-link {
+  display: block;
+  margin-left: .625rem;
+  width: 1.25rem;
+  height: auto;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
 @import "./nav-menu-tablet.scss";
+
+@import "./nav-menu-mobile.scss";

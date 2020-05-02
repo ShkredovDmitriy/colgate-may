@@ -1,6 +1,10 @@
 @media screen and ($tablet1), ($tablet2), ($tablet3) {
 
   .main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
     height: 4.1875rem;
   }
 
@@ -9,6 +13,7 @@
   }
 
   .main-header__colgate-logo {
+    z-index: 501;
     width: 9.875rem;
     transform: translateY(1.75rem);
   }
@@ -16,10 +21,6 @@
   .main-header__crossroads-logo {
     margin-left: 1.75rem;
     width: 11.875rem;
-  }
-
-  .main-header__social-container {
-    display: none;
   }
 
   .main-header__sandwich {

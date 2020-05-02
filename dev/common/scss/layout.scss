@@ -43,6 +43,18 @@ a:hover {
   text-decoration: none;
 }
 
+.overflov-hidden {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1921px) {
+
+  html,
+  body {
+    font-size: calc(100vw / 1920 * 16);
+  }
+}
+
 @media screen and ($nout1), ($nout2), ($nout3) {
 
   html,
@@ -57,6 +69,10 @@ a:hover {
   body {
     font-size: calc(100vw / 768 * 16);
   }
+
+  body {
+    padding-top: 4rem;
+  }
 }
 
 @media screen and ($mobile1), ($mobile2), ($mobile3) {
@@ -64,5 +80,9 @@ a:hover {
   html,
   body {
     font-size: calc(100vw / 375 * 16);
+  }
+
+  body {
+    padding-top: 6.25rem;
   }
 }

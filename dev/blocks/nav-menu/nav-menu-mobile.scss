@@ -1,0 +1,11 @@
+@media screen and ($mobile1), ($mobile2), ($mobile3) {
+
+  .main-header__wrapper {
+    width: 19.6875rem;
+  }
+
+  .nav-menu__link {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+  }
+}
