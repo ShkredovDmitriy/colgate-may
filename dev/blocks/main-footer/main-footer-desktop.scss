@@ -13,9 +13,9 @@
   width: 100%;
   height: 25.125rem;
   background-image: url("./images/main-footer-desktop.svg");
-  background-position: center;
+  background-position: center 0;
   background-repeat: no-repeat;
-  background-size: 120rem auto;
+  background-size: 100% auto;
 }
 
 .main-footer__decor-colgate {
@@ -24,6 +24,7 @@
   width: 20.125rem;
   height: 29.1875rem;
   background-image: url("./images/main-footer__decor-colgate.png");
+  background-position: center;
   background-size: contain;
 }
 
@@ -76,6 +77,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+  }
+}
+
+@media screen and (min-aspect-ratio: 1400/670) {
+
+  .main-footer__decor {
+    height: 26.5rem;
   }
 }
 

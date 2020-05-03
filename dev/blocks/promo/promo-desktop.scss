@@ -1,20 +1,27 @@
 .promo {
   flex-grow: 1;
   width: 100%;
-  background-image: url("./images/main-bg-dekor-1.png"),
-    url("./images/main-bg-dekor-2.png"), url("./images/main-bg-dekor-3.png"),
+  background-image: url("./images/main-bg-dekor-3.png"),
+    url("./images/main-bg-bag.png"), url("./images/main-bg-set.png"),
+    url("./images/main-bg-dekor-1.png"), url("./images/main-bg-dekor-2.png"),
     url("./images/main-bg-dekor-1.png"), url("./images/main-bg-dekor-4.png"),
+    url("./images/main-bg-dekor-15.png"), url("./images/main-bg-dekor-16.png"),
     url("./images/main-bg-desktop.png");
 
-  background-position: calc(50% + 58.45rem) .067rem,
-    calc(50% - 36.25rem) -2.5rem, calc(50% + 8.5rem) -3.6rem,
-    calc(50% - 58.75rem) calc(50% + 6.6rem),
-    calc(50% - 47.4rem) calc(50% + 11.75rem), center;
+  background-position: calc(50% + 8.5rem) -3.6rem,
+    calc(50% + 18.5625rem) calc(100% + 3.125rem),
+    calc(50% - .5625rem) calc(100% + 7.5625rem),
+    calc(100% + 7.6875rem) .067rem, calc(50% - 36.25rem) -2.5rem,
+    -7.875rem calc(100% - 8rem), 1.25rem calc(100% - 1rem),
+    calc(50% + 4.25rem) calc(100% - 27.9375rem),
+    calc(50% + 34.9375rem) calc(100% - 25.375rem), center;
 
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
-    no-repeat;
-  background-size: 18.5rem auto, 23rem auto, 13rem auto, 18.065rem auto,
-    23rem auto, cover;
+    no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+
+  background-size: 13rem auto, 30.4rem auto, 29.75rem auto, 18.5rem auto,
+    23rem auto, 18.3125rem auto, 23rem auto, 13.0625rem auto, 12.9375rem auto,
+    cover;
 }
 
 .promo__wrapper {

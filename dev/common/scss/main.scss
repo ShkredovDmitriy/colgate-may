@@ -6,8 +6,11 @@
 
 @import "layout.scss";
 
-// components
-@import "./components.scss";
+// bootstrap
+@import "../../components/bootstrap-scss/bootstrap.scss";
+
+// bootstrap select
+@import "../../components/bootstrap-select/bootstrap-select.min.scss";
 
 // page-wrapper
 @import "../../blocks/page-wrapper/page-wrapper.scss";
@@ -23,3 +26,15 @@
 
 // main footer
 @import "../../blocks/main-footer/main-footer-desktop.scss";
+
+// модалка faq
+@import "../../components/ds-modal/ds-modal.scss";
+
+// модалка feedback
+@import "../../components/modal-feedback/modal-feedback.scss";
+
+// аккордион
+@import "../../components/ds-accordion/ds-accordion.scss";
+
+// success
+@import "../../components/modal-success/modal-success.scss";

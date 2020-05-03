@@ -1,0 +1,27 @@
+extends ../ds-modal/ds-modal
+
+block variables
+    - var uniqueClass = 'modal-feedback'
+
+block content
+    .ds-modal__body
+        .ds-modal-close-btn.modal-feedback-close-button
+        .ds-modal__headline Обратная связь
+        form(action="#" id="formFeedback" onsubmit="return false;").form-feedback
+            .input-container
+                input(type="text" placeholder="Имя" id="formFeedbackUserName").input-field
+            .input-container
+                input(type="text" placeholder="E-mail" id="formFeedbackUserEmail").input-field
+            .input-container
+                select.form-feedback__select(id="formFeedbackMessageTheme")
+                    option(value="error") Тема сообщения
+                    option(value="Не могу зарегистрировать чек") Не могу зарегистрировать чек
+                    option(value="Чек не прошел модерацию") Чек не прошел модерацию
+                    option(value="Не получил приз") Не получил приз
+                    option(value="Хочу сообщить об ошибке на сайте") Хочу сообщить об ошибке на сайте
+                    option(value="Other") Другое
+            .input-container
+                textarea.textarea-field(placeholder="Сообщение" id="formFeedbackMessageText") 
+            .recaptcha-container
+                .g-recaptcha(data-sitekey="6LfheOQUAAAAABug9jK3et5eurEFvQuARto25kfM")
+            input(type="submit" value="ОТПРАВИТЬ" id="formFeedbackSubmitButton").submit-button

@@ -1,0 +1,8 @@
+.modal-feedback {
+  /* само модальное окно */
+  .ds-modal__body {
+    max-width: 23.125rem;
+  }
+}
+
+@import "./form-feedback.scss";

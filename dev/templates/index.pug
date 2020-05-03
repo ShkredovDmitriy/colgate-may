@@ -19,7 +19,19 @@ html(lang="en-US")
         .page-wrapper
             block content
 
+        include ../components/modal-faq/modal-faq
+        include ../components/modal-feedback/modal-feedback
+        include ../components/modal-success/modal-success
+
         script(src="js/jquery-3.3.1.min.js")
+        script(src='https://www.google.com/recaptcha/api.js')
+
+        script(src="js/popper.min.js")
+        script(src="js/bootstrap.min.js")
+        script(src="js/bootstrap-select.min.js")
+
+        script(type="text/javascript" src="js/massages.js")
+
         //-   script(src="js/slick.min.js")
         //-   script(src="js/popper.min.js")
         //-   script(src="js/bootstrap.min.js")

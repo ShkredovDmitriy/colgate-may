@@ -1,7 +1,20 @@
 @media screen and ($mobile1), ($mobile2), ($mobile3) {
 
   .promo {
-    background-image: url("./images/main-bg-mobile.png");
+    background-image: url("./images/main-bg-bag.png"),
+      url("./images/main-bg-set.png"), url("./images/main-bg-dekor-14.png"),
+      url("./images/main-bg-dekor-1.png"), url("./images/main-bg-dekor-9.png"),
+      url("./images/main-bg-dekor-10.png"), url("./images/main-bg-dekor-11.png"),
+      url("./images/main-bg-dekor-13.png"), url("./images/main-bg-mobile.png");
+    background-position: 1.625rem calc(100% + 2.125rem),
+      -8.375rem calc(100% + .4375rem), 0 calc(100% - 16.3125rem),
+      calc(100% + 3.375rem) .5rem, calc(100% + .0625rem) 19.25rem,
+      100% 28.4375rem, 0 -1.9375rem, 0 6.125rem, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+      no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 15.8125rem auto, 18.8125rem auto, 6.6875rem auto,
+      8.4375rem auto, 4.5rem auto, 8.3125rem auto, 15.4375rem auto, 7.75rem auto,
+      cover;
   }
 
   .promo__wrapper {
