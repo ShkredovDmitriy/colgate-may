@@ -1,7 +1,17 @@
 @media screen and ($tablet1), ($tablet2), ($tablet3) {
 
   .promo {
-    background-image: url("./images/main-bg-tablet.png");
+    background-image: url("./images/main-bg-dekor-1.png"),
+      url("./images/main-bg-dekor-5.png"), url("./images/main-bg-dekor-6.png"),
+      url("./images/main-bg-dekor-7.png"), url("./images/main-bg-dekor-8.png"),
+      url("./images/main-bg-tablet.png");
+    background-position: calc(50% + 22.95rem) 14rem, calc(50% + 13rem) -4rem,
+      calc(50% - 11.0625rem) -.125rem, calc(50% + 20.25rem) 33.5rem,
+      -.0625rem calc(100% + .1875rem), center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+      no-repeat;
+    background-size: 18.5rem auto, 14.0625rem auto, 11.8125rem auto,
+      7.375rem auto, 10.5625rem auto, cover;
   }
 
   .promo__wrapper {
